@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomiclabs/hardhat-waffle": "^2.0.6",
-    "chai": "^5.2.1",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "hardhat": "^2.26.1"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "typescript": "^5.8.3"
   }
 }
